@@ -31,7 +31,7 @@ setup(
     install_requires=INSTALL_REQUIRES,
     python_requires='>=3.6',
     extras_require={
-        "dev": ["codecov", "flake8==3.7.9", "pydocstyle", "pytest>=4.6", "pytest-cov", "tox"],
+        "dev": ["codecov", "flake8==3.7.9", "pydocstyle", "pytest>=4.6", "pytest-cov", "tox","numpy"],
         "docs": ["sphinx", "sphinx_rtd_theme"],
         "examples": ["sphinx_gallery", "statsmodels"]
     }

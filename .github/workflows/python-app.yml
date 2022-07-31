@@ -43,4 +43,7 @@ jobs:
       run: |
         # Replace `linux` below with the appropriate OS
         # Options are `alpine`, `linux`, `macos`, `windows`
-        $ProgressPreference = 'SilentlyContinue' Invoke-WebRequest -Uri https://uploader.codecov.io/latest/windows/codecov.exe -Outfile codecov.exe .\codecov.exe
+        $ProgressPreference = 'SilentlyContinue' 
+        Invoke-WebRequest -Uri https://uploader.codecov.io/latest/windows/codecov.exe 
+        -Outfile codecov.exe 
+        .\codecov.exe
